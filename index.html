@@ -7,19 +7,27 @@
     <title>NinjasMK</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="mk logo.png" type="image/x-icon">
-    <script src="script.js" type="text/javascript"></script>
+    <script defer src="script.js" type="text/javascript"></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="box box-1" id="subzero" style="--img: url(subzero.jpg);" data-text="SubZero"></div>
-        <div class="box box-2" id="scorpion" style="--img: url(scorpion.jpg);" data-text="Scorpion"></div>
-        <div class="box box-3" id="noob" style="--img: url(noob.jpg);" data-text="Noob"></div>
-        <div class="box box-4" id="smoke" style="--img: url(smoke.jpg);" data-text="Smoke"></div>
-        <div class="box box-5" style="--img: url(reptile.png);" data-text="Repitile"></div>
-        <div class="box box-6" style="--img: url(rain.jpg);" data-text="Rain"></div>
-        <div class="box box-7" style="--img: url(ermac.jpg);" data-text="Ermac"></div>
-        <div class="box box-8" id="tremor" style="--img: url(tremor.png);" data-text="Tremor"></div>
+        <div class="box box-1" id="subzero" onclick="subzero()" style="--img: url(subzero.jpg);" data-text="Sub Zero"></div>
+        <audio id="audiosubzero" src="subzero.mp3"></audio>
+        <div class="box box-2" id="scorpion" onclick="scorpion()" style="--img: url(scorpion.jpg);" data-text="Scorpion"></div>
+        <audio id="audioscorpion" src="scorpion.mp3"></audio>
+        <div class="box box-3" id="noob" onclick="noob()" style="--img: url(noob.jpg);" data-text="Noob Saibot"></div>
+        <audio id="audionoob" src="noob.mp3"></audio>
+        <div class="box box-4" id="smoke" onclick="smoke()" style="--img: url(smoke.jpg);" data-text="Smoke"></div>
+        <audio id="audiosmoke" src="smoke.mp3"></audio>
+        <div class="box box-5" onclick="reptile()" style="--img: url(reptile.png);" data-text="Reptile"></div>
+        <audio id="audioreptile" src="reptile.mp3"></audio>
+        <div class="box box-6" id="rain" onclick="rain()" style="--img: url(rain.jpg);" data-text="Rain"></div>
+        <audio id="audiorain" src="rain.mp3"></audio>
+        <div class="box box-7" onclick="ermac()" style="--img: url(ermac.jpg);" data-text="Ermac"></div>
+        <audio id="audioermac" src="ermac.mp3"></audio>
+        <div class="box box-8" id="tremor" onclick="tremor()" style="--img: url(tremor.png);" data-text="Tremor"></div>
+        <audio id="audiotremor" src="tremor.mp3"></audio>
     </div>
 </body>
 

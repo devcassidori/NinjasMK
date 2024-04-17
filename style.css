@@ -107,7 +107,7 @@ body {
 }
 
 #smoke {
-    margin-top: -30px;
+    margin-top: 10px;
 }
 
 #smoke img {
@@ -115,9 +115,13 @@ body {
 }
 
 #scorpion{
-    margin-top: -20px;
+    margin-top: 20px;
+}
+
+#rain{
+    margin-top: 20px;
 }
 
 #tremor{
-    margin-top: -40px;
+    margin-top: -10px;
 }
